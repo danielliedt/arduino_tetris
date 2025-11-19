@@ -28,14 +28,12 @@ Wiring
 Installation
 ------------
 1. Set up Arduino IDE:
-   - Install ESP32 board support
+   - Install ESP32 board support (EEPROM.h included)
    - Install required libraries:
-     * WiFi
-     * AsyncTCP
-     * ESPAsyncWebServer
-     * Adafruit NeoPixel
-     * EEPROM
-(I used: https://github.com/dvarrel/ESPAsyncWebSrv)
+     * AsyncTCP (I used: https://github.com/dvarrel/AsyncTCP)
+     * ESPAsyncWebServer (I used: https://github.com/dvarrel/ESPAsyncWebSrv)
+     * Adafruit NeoPixel (I used: https://github.com/adafruit/Adafruit_NeoPixel)
+
 
 2. Configure the code:
    - Enter WiFi credentials in `ssid` and `password` variables

@@ -1,4 +1,3 @@
-#include <EEPROM.h>
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebSrv.h>

@@ -35,6 +35,7 @@ Installation
      * ESPAsyncWebServer
      * Adafruit NeoPixel
      * EEPROM
+(I used: https://github.com/dvarrel/ESPAsyncWebSrv)
 
 2. Configure the code:
    - Enter WiFi credentials in `ssid` and `password` variables
